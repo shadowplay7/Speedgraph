@@ -50,33 +50,3 @@ with open('file.csv') as csv_file:
     plt.axhline(y=45, color='green', linestyle='-.', linewidth=3)
 
     plt.show()
-
-
-   # plt.axhline(y=5, color='black', linestyle='--', linewidth=1)
-   # i=10
-   # while i<44:
-   #     plt.axhline(i, color='black', linestyle='--', linewidth=1)
- #       i += 10
-
-    #reg_format = date[a].strftime("%Y-%m-%d %I:%M:%S %p")
-    #print(reg_format)
-
-    #for a in range(len(date)):
-    #    a.strftime('%Y-%m-%d %H:%M')
-        
-        
-   
-
-
-#import matplotlib.pyplot as plt
-#import csv
-
-
-#with open('file.csv') as csv_file:
-#    csv_reader = csv.reader(csv_file, delimiter=',')
-#    line_count = 0
-#    for row in csv_reader:
-#            print(f'\tdownload: {row[6]} || upload {row[7]}.')
-#            line_count += 1
-
-#    print(f'Processed {line_count} lines.')
