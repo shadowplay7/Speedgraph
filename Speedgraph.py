@@ -17,6 +17,7 @@ parser.add_argument('-a', '--auto', type=str, help="'yes' option to set automati
 parser.add_argument('-W', '--width', type=int, help="plot width. Default: 15.", action="store", default=15)
 parser.add_argument('-H', '--height', type=int, help="plot height. Default: 8.", action="store", default=8)
 parser.add_argument('-m', '--marker', type=int, help="marker size. Default: 3.", action="store", default=3)
+parser.add_argument('-f', '--file',  help="path to file", action="store", default='file.csv')
 
 args = parser.parse_args()
 
@@ -35,7 +36,7 @@ upload=[]
 date=[]
 datePlot=[]
 
-with open('file.csv') as csv_file:
+with open(args.file) as csv_file:
     csv_reader = csv.reader(csv_file, delimiter=',')
     for row in csv_reader:
            download.append(float(row[6]))
