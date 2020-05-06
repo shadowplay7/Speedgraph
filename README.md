@@ -12,7 +12,7 @@ Graph created using matplotlib.
 Speedgraph.py -f C:\speedresults.csv
 ```
 
-Gold/Blue line - Download/upload speed set by your ISP. Values can be changed in script or by arguments.<br/>
+Gold/Blue line - Download/upload speed set by your ISP. Values can be changed using arguments.<br/>
 You can set up speedtest-cli script in Windows Task Scheduler to get more data e.g., from every hour.<br/>
 
 ![alt text](https://github.com/shadowplay7/Speedgraph/blob/master/example.PNG)
