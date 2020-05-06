@@ -27,12 +27,13 @@ Create plot for speedtest .csv file<br/>
 | Short | Long name | matavar | Description | Default |
 | :--- | :--- | :--- | :---  | :---: |
 | -h  | --help         |  | show this help message and exit |  |
-| -d  | --daysTick     | DAYSTICK      | an integer for days tick on axis X           | 7   |
-| -do | --download     | DOWNLOAD      | an integer for download limit on axis Y      | 150 |
-| -dt | --downloadTick | DOWNLOADTICK  | an integer for download tick on axis Y       | 15  |
-| -up | --upload       | UPLOAD        | an integer for upload on axis Y              | 10  |
-| -sh | --showHours    | SHOWHOURS     | 'no' option to hide hours on axis X label    | yes |
-| -a  | --auto         | AUTO          | 'yes' option to set automatic axes alignment | no  |
-| -W  | --width        | WIDTH         | plot width                                   | 15  |
-| -H  | --height       | HEIGHT        | plot height                                  | 8   |
-| -m  | --marker       | MARKER        | marker size                                  | 3   |
+| -d  | --daysTick     | DAYSTICK      | an integer for days tick on axis X           | 7          |
+| -do | --download     | DOWNLOAD      | an integer for download limit on axis Y      | 150        |
+| -dt | --downloadTick | DOWNLOADTICK  | an integer for download tick on axis Y       | 15         |
+| -up | --upload       | UPLOAD        | an integer for upload on axis Y              | 10         |
+| -sh | --showHours    | SHOWHOURS     | 'no' option to hide hours on axis X label    | yes        |
+| -a  | --auto         | AUTO          | 'yes' option to set automatic axes alignment | no         |
+| -W  | --width        | WIDTH         | plot width                                   | 15         |
+| -H  | --height       | HEIGHT        | plot height                                  | 8          |
+| -m  | --marker       | MARKER        | marker size                                  | 3          |
+| -f  | --file         | FILE          | path to file                                 | file.csv   |
