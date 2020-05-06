@@ -17,7 +17,7 @@ You can set up speedtest-cli script in Windows Task Scheduler to get more data e
 ```
 Speedgraph.py [-h] [-d DAYSTICK] [-do DOWNLOAD] [-dt DOWNLOADTICK]
                      [-up UPLOAD] [-sh SHOWHOURS] [-a AUTO] [-W WIDTH]
-                     [-H HEIGHT] [-m MARKER]
+                     [-H HEIGHT] [-m MARKER] [-f FILE]
 ```
 
 Create plot for speedtest .csv file<br/>
