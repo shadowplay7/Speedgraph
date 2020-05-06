@@ -11,4 +11,4 @@ How to use:
 Gold/Blue line - Download/upload speed set by your ISP. Values can be changed in script.
 You can set up speedtest-cli script in Windows Task Scheduler to get more data e.g., from every hour.
 
-![alt text](https://github.com/shadowplay7/Speedgraph/blob/master/PythonTest/example.PNG)
+![alt text](https://github.com/shadowplay7/Speedgraph/blob/master/example.PNG)
