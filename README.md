@@ -7,6 +7,10 @@ Graph created using matplotlib.
 1. Create .csv file from speedtest-cli script. 
 2. Rename it to "file".
 3. Copy "file" to folder with Speedgraph script.
+4. Instead of step 2,3 you can also pass .csv file path as argument ex.
+```
+Speedgraph.py -f C:\speedresults.csv
+```
 
 Gold/Blue line - Download/upload speed set by your ISP. Values can be changed in script or by arguments.<br/>
 You can set up speedtest-cli script in Windows Task Scheduler to get more data e.g., from every hour.<br/>
